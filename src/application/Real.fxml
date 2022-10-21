@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DriverController">
+   <children>
+      <Button fx:id="buttond" layoutX="153.0" layoutY="176.0" mnemonicParsing="false" onAction="#driveradd" prefHeight="48.0" prefWidth="201.0" text="DRIVE" textFill="#b1d167">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="buttons" layoutX="472.0" layoutY="176.0" mnemonicParsing="false" onAction="#passadd" prefHeight="48.0" prefWidth="202.0" text="SHARE" textFill="#b3dc8a">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font></Button>
+      <Label layoutX="403.0" layoutY="197.0" prefHeight="20.0" prefWidth="21.0" text="OR" textFill="#accc42" />
+      <Pane prefHeight="400.0" prefWidth="115.0" style="-fx-background-color: yellowgreen;" />
+      <Label layoutX="169.0" layoutY="85.0" prefHeight="62.0" prefWidth="468.0" text="     Do you want to drive or share a ride?" textFill="#accc42">
+         <font>
+            <Font name="Arial Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="130.0" layoutY="25.0" prefHeight="42.0" prefWidth="610.0" text="WELCOME TO FAIR FARES:CARPOOLING SYSTEM" textFill="#accc42">
+         <font>
+            <Font name="Bookshelf Symbol 7" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="172.0" layoutX="492.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Pictures/Screenshots/Screenshot%20(180).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="154.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Pictures/Screenshots/Screenshot%20(179).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

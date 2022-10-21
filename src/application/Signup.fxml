@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SignupController">
+   <children>
+      <AnchorPane prefHeight="590.0" prefWidth="580.0">
+         <children>
+            <Button fx:id="signb" layoutX="258.0" layoutY="422.0" mnemonicParsing="false" onAction="#signup" prefHeight="40.0" prefWidth="140.0" style="-fx-background-color: YELLOWGREEN;" text="SIGNUP">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               </Button>
+            <PasswordField fx:id="pwd" layoutX="234.0" layoutY="193.0" prefHeight="48.0" prefWidth="230.0" />
+            <TextField fx:id="uname" layoutX="237.0" layoutY="121.0" prefHeight="48.0" prefWidth="230.0" />
+            <TextField fx:id="homed" layoutX="234.0" layoutY="273.0" prefHeight="48.0" prefWidth="230.0" />
+            <TextField fx:id="workd" layoutX="234.0" layoutY="347.0" prefHeight="48.0" prefWidth="230.0" />
+            <Label fx:id="label" layoutX="276.0" layoutY="39.0" prefHeight="54.0" prefWidth="146.0" text="SIGNUP">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Button fx:id="log" layoutX="464.0" layoutY="501.0" mnemonicParsing="false" onAction="#loginpage" prefHeight="30.0" prefWidth="78.0" style="-fx-background-color: YELLOWGREEN;" text="LOGIN">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <HBox layoutY="-1.0" prefHeight="594.0" prefWidth="220.0" style="-fx-background-color: YELLOWGREEN;">
+               <children>
+                  <Pane prefHeight="560.0" prefWidth="192.0">
+                     <children>
+                        <Label layoutX="44.0" layoutY="119.0" prefHeight="30.0" prefWidth="133.0" text="USERNAME">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="46.0" layoutY="200.0" prefHeight="27.0" prefWidth="106.0" text="PASSWORD">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="40.0" layoutY="284.0" prefHeight="27.0" prefWidth="140.0" text="HOME ADDRESS" textAlignment="JUSTIFY">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="30.0" layoutY="356.0" prefHeight="27.0" prefWidth="159.0" text="  WORK ADDRESS">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children>
+            </HBox>
+            <Label layoutX="318.0" layoutY="506.0" prefHeight="20.0" prefWidth="159.0" text="Already Registered?">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

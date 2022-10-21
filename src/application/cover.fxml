@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.94" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SignupController">
+   <children>
+      <Button fx:id="start" layoutX="271.0" layoutY="323.0" mnemonicParsing="false" onAction="#loginpage" prefHeight="50.0" prefWidth="108.0" style="-fx-border-color: yellowgreen; -fx-border-width: 5;" text="START " textFill="#292d30">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <ImageView fitHeight="201.0" fitWidth="320.0" layoutX="175.0" layoutY="98.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../OneDrive/Pictures/Screenshots/Screenshot%20(177).png" />
+         </image>
+      </ImageView>
+      <Pane layoutY="-5.0" prefHeight="407.0" prefWidth="175.0" style="-fx-background-color: yellowgreen;" />
+      <Label layoutX="28.0" layoutY="24.0" prefHeight="39.0" prefWidth="593.0" text="WELCOME TO FAIR FARES : CARPOOLING SYSTEM" textFill="#150c0a">
+         <font>
+            <Font name="Algerian" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
